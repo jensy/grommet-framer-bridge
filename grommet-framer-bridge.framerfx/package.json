@@ -1,0 +1,20 @@
+{
+  "main": "dist/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.8.0"
+  },
+  "peerDependencies": {
+    "framer": "^0.10 || ^1",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "framer": {
+    "id": "9d9a05d5-f2c1-4e91-818d-8ca9d288b2c8"
+  },
+  "author": "Jens Nikolaus",
+  "dependencies": {
+    "grommet": "^2.6.6",
+    "styled-components": "^4.2.0"
+  }
+}
