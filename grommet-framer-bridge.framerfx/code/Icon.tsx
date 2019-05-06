@@ -3,7 +3,7 @@ import * as Icons from 'grommet-icons';
 import styled from 'styled-components';
 import { PropertyControls, ControlType } from 'framer';
 
-const Icon = ({ name, ...rest }) => {
+const GrommetIcon = ({ name, ...rest }) => {
   const NamedIcon = Icons[name];
   if (NamedIcon === undefined) {
     return null;
@@ -11,7 +11,7 @@ const Icon = ({ name, ...rest }) => {
   return <NamedIcon {...rest} />;
 };
 
-const StyledIcon = styled(Icon)`
+const StyledIcon = styled(GrommetIcon)`
   display: flex;
   width: 100%;
   height: 100%;
@@ -24,7 +24,7 @@ interface Props {
   color: string;
 }
 
-export class GrommetIcon extends React.Component<Partial<Props>> {
+export class Icon extends React.Component<Partial<Props>> {
   static defaultProps = {
     icon: 'Gremlin',
     color: 'rgb(134, 92, 214)',
