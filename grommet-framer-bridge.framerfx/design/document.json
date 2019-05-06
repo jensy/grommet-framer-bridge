@@ -94,7 +94,8 @@
                 "codeComponentProps" : {
                   "color" : "#777777",
                   "size" : "small",
-                  "text" : "Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini."
+                  "text" : "Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.",
+                  "weight" : "normal"
                 },
                 "codeOverrideEnabled" : false,
                 "constraintsLocked" : false,
@@ -155,6 +156,7 @@
                 "codeComponentIdentifier" : ".\/Select.tsx_Select",
                 "codeComponentProps" : {
                   "options" : "Apple, Banana, Orange, Kiwi",
+                  "placeholder" : "Select option",
                   "search" : false
                 },
                 "codeOverrideEnabled" : false,
@@ -215,7 +217,9 @@
                 "clip" : true,
                 "codeComponentIdentifier" : ".\/TextInput.tsx_TextInput",
                 "codeComponentProps" : {
-
+                  "placeholder" : "Type in here",
+                  "type" : "default",
+                  "value" : ""
                 },
                 "codeOverrideEnabled" : false,
                 "constraintsLocked" : false,
@@ -1385,7 +1389,9 @@
                 "clip" : true,
                 "codeComponentIdentifier" : ".\/TextInput.tsx_TextInput",
                 "codeComponentProps" : {
-
+                  "placeholder" : "Type in here",
+                  "type" : "default",
+                  "value" : ""
                 },
                 "codeOverrideEnabled" : false,
                 "constraintsLocked" : false,
@@ -1445,7 +1451,9 @@
                 "clip" : true,
                 "codeComponentIdentifier" : ".\/TextInput.tsx_TextInput",
                 "codeComponentProps" : {
-
+                  "placeholder" : "Type in here",
+                  "type" : "default",
+                  "value" : ""
                 },
                 "codeOverrideEnabled" : false,
                 "constraintsLocked" : false,
@@ -1505,7 +1513,9 @@
                 "clip" : true,
                 "codeComponentIdentifier" : ".\/TextInput.tsx_TextInput",
                 "codeComponentProps" : {
-
+                  "placeholder" : "Type in here",
+                  "type" : "default",
+                  "value" : ""
                 },
                 "codeOverrideEnabled" : false,
                 "constraintsLocked" : false,
@@ -1566,6 +1576,7 @@
                 "codeComponentIdentifier" : ".\/Select.tsx_Select",
                 "codeComponentProps" : {
                   "options" : "Public Cloud, Private Cloud, Bare Metal",
+                  "placeholder" : "Select option",
                   "search" : false
                 },
                 "codeOverrideEnabled" : false,
@@ -2051,6 +2062,128 @@
         "top" : 695,
         "visible" : true,
         "width" : 1440,
+        "widthType" : 0
+      },
+      {
+        "__class" : "CodeComponentNode",
+        "aspectRatio" : null,
+        "bottom" : null,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
+        "children" : [
+
+        ],
+        "clip" : true,
+        "codeComponentIdentifier" : ".\/Meter.tsx_Meter",
+        "codeComponentProps" : {
+          "type" : "bar"
+        },
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "deviceType" : null,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "rgba(255,255,255,1)",
+        "fillEnabled" : false,
+        "fillGradient" : {
+          "__class" : "LinearGradient",
+          "alpha" : 1,
+          "angle" : 0,
+          "end" : "rgba(0,0,0,0)",
+          "start" : "black"
+        },
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 12,
+        "heightType" : 0,
+        "id" : "neqK9zAHn",
+        "intrinsicHeight" : 36,
+        "intrinsicWidth" : 144,
+        "left" : 2461,
+        "locked" : false,
+        "name" : null,
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "p_cNeUWAu",
+        "previewSettings" : null,
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "right" : null,
+        "rotation" : 0,
+        "top" : 804,
+        "visible" : true,
+        "width" : 144,
+        "widthType" : 0
+      },
+      {
+        "__class" : "CodeComponentNode",
+        "aspectRatio" : null,
+        "bottom" : null,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
+        "children" : [
+
+        ],
+        "clip" : true,
+        "codeComponentIdentifier" : ".\/Select.tsx_Select",
+        "codeComponentProps" : {
+          "options" : "Apple, Banana, Orange",
+          "placeholder" : "Select option",
+          "search" : true
+        },
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "deviceType" : null,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "rgba(255,255,255,1)",
+        "fillEnabled" : false,
+        "fillGradient" : {
+          "__class" : "LinearGradient",
+          "alpha" : 1,
+          "angle" : 0,
+          "end" : "rgba(0,0,0,0)",
+          "start" : "black"
+        },
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 36,
+        "heightType" : 0,
+        "id" : "s3mPCLTSB",
+        "intrinsicHeight" : 36,
+        "intrinsicWidth" : 144,
+        "left" : 2519,
+        "locked" : false,
+        "name" : null,
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "p_cNeUWAu",
+        "previewSettings" : null,
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "right" : null,
+        "rotation" : 0,
+        "top" : 702,
+        "visible" : true,
+        "width" : 372,
         "widthType" : 0
       }
     ],

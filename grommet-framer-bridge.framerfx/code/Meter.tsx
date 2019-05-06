@@ -24,7 +24,7 @@ export function Meter(props) {
 
 Meter.defaultProps = {
   width: 144,
-  height: 36,
+  height: 12,
   type: 'bar',
 };
 

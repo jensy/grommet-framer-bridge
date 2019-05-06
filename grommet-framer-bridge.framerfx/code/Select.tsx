@@ -23,7 +23,7 @@ export function Select(props) {
 Select.defaultProps = {
   placeholder: 'Select option',
   options: 'Apple, Banana, Orange',
-  search: false,
+  // search: false,
   width: 144,
   height: 36,
 };
@@ -31,5 +31,5 @@ Select.defaultProps = {
 addPropertyControls(Select, {
   placeholder: { type: ControlType.String, title: 'Placeholder' },
   options: { type: ControlType.String, title: 'Options' },
-  search: { type: ControlType.Boolean, title: 'Search' },
+  // search: { type: ControlType.Boolean, title: 'Search' },
 });
