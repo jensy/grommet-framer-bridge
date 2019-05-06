@@ -1,6 +1,6 @@
-import * as React from "react";
-import { Button as _Button } from "grommet";
-import { PropertyControls, ControlType } from "framer";
+import * as React from 'react';
+import { Button as _Button } from 'grommet';
+import { Override, PropertyControls, ControlType } from 'framer';
 
 type Props = {
   label: string;
@@ -27,20 +27,20 @@ export class Button extends React.Component<Props> {
   }
 
   static defaultProps: Props = {
-    label: "Hello World!",
-    color: "",
+    label: 'Hello World!',
+    color: '',
     width: 180,
     height: 36,
     primary: true,
     plain: false,
-    link: ""
+    link: '',
   };
 
   static propertyControls: PropertyControls<Props> = {
-    label: { type: ControlType.String, title: "Label" },
-    color: { type: ControlType.Color, title: "Color" },
-    primary: { type: ControlType.Boolean, title: "Primary" },
-    plain: { type: ControlType.Boolean, title: "Plain" },
-    link: { type: ControlType.String, title: "Link" }
+    label: { type: ControlType.String, title: 'Label' },
+    color: { type: ControlType.Color, title: 'Color' },
+    primary: { type: ControlType.Boolean, title: 'Primary' },
+    plain: { type: ControlType.Boolean, title: 'Plain' },
+    link: { type: ControlType.String, title: 'Link' },
   };
 }
