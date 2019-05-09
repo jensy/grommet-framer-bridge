@@ -14,6 +14,8 @@
   },
   "author": "Jens Nikolaus",
   "dependencies": {
+    "@framer/benjamin.grid": "^1.10.0",
+    "@framer/steveruizok.framer-controller": "^1.6.0",
     "grommet": "^2.6.6",
     "styled-components": "^4.2.0"
   }

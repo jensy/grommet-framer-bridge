@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Button as _Button, Box } from "grommet"
+import * as Grommet from "grommet"
 import { Override, PropertyControls, ControlType } from "framer"
 
 type Props = {
@@ -12,19 +12,17 @@ type Props = {
     link: string
 }
 
-export class Button extends React.Component<Props> {
+export class Button2 extends React.Component<Props> {
     render() {
         return (
-            <Box>
-                <_Button
-                    label={this.props.label}
-                    color={this.props.color}
-                    fill
-                    primary={this.props.primary}
-                    plain={this.props.plain}
-                    href={this.props.link}
-                />
-            </Box>
+            <Grommet.Button
+                label={this.props.label}
+                color={this.props.color}
+                fill
+                primary={this.props.primary}
+                plain={this.props.plain}
+                href={this.props.link}
+            />
         )
     }
 
